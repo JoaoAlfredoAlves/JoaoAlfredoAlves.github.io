@@ -54,7 +54,6 @@ body {
     list-style: none;
     display: inline-block;
     padding-right: 1vw;
-    
 }
 
 .nomeJoao {
@@ -79,7 +78,49 @@ h2 {
 }
 
 a {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    margin: 0 auto;
     text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
+    transition: all 0.3s ease-in-out;
+}
+
+.redes a:hover {
+    border-radius: 100%;
+    background-color: #101C26;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.conteudo a:hover {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #101C26;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.experienciaCard a:hover {
+    padding: 0px;
+    border: none;
+    background-color: #101c2600;
+    color: #EBEBEB;
+    font-weight: bold;
+}
+
+.experienciaCard a:after {
+    content: "";
+    position: absolute;
+    background-color: #EBEBEB;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.experienciaCard a:hover:after {
+    width: 100%;
 }
 
 p {
@@ -106,7 +147,7 @@ p {
 }
 
 .conteudo {
-    margin: 2vw 22vw;
+    margin: 2vw 16vw;
     text-align: center;
 }
 
@@ -114,14 +155,38 @@ p {
     background-color: #212B40;
     margin-top: 30px;
     padding-top: 0px;
+    padding-bottom: 20px;
     border-radius: 20px;
     box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
 }
 
+.devWeb {
+    background-color: #101C26;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 20px 20px 0px 0px;
+    border-style: groove;
+    border: 2px solid #101C26;
+    text-align: center;
+
+}
+
+.experienciaCard {
+    border: 2px solid white;
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.experienciaCard p {
+    padding-bottom: 0px;
+}
+
 footer {
     background-color: #212B40;
-    margin-top: 30px;
-    padding-top: 20px;
+    margin-top: 20px;
+    padding: 20px 40px 0px 40px;
     border-radius: 20px;
     text-align: center;
     box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
