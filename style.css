@@ -148,8 +148,8 @@ p {
 .fotoPerfil {
     display: block;
     margin: auto;
-    margin: 20px 0px 20px 0px;
-    width: 330px;
+    margin: 15px 0px 15px 0px;
+    width: 330x;
     height: 330px;
     border-radius: 20px;
     box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
@@ -204,7 +204,7 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1155px) {
     #redeSocial {
         text-align: center;
     }
@@ -218,6 +218,23 @@ footer {
         justify-content: center;
         flex-wrap: wrap;
     
+        box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
+    }
+
+    .conteudo {
+        margin: 2vw 8vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .fotoPerfil {
+        display: block;
+        margin: auto;
+        margin: 15px 0px 15px 0px;
+        width: 240x;
+        height: 240px;
+        border-radius: 20px;
         box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
     }
 }
