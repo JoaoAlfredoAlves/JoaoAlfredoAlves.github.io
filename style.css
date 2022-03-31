@@ -63,6 +63,7 @@ body {
 .informacoes {
 	margin-left: 40px;
 	margin-right: 40px;
+	text-align: center;
 }
 
 h1 {
@@ -71,9 +72,12 @@ h1 {
 }
 
 h2 {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-top: 0px;
 	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
+}
+
+.h2TituloConteudo {
+	padding: 20px;
 }
 
 #contato {
@@ -92,13 +96,19 @@ a {
 	margin: 0 auto;
 	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
 	transition: all 0.3s ease-in-out;
+	padding: 10px;
+}
+
+.redes a {
+	padding: 0px !important;
 }
 
 .redes a:hover {
 	border-radius: 100%;
 	background-color: #101c26;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.3s;
 	position: relative;
+	text-decoration: none;
 }
 
 .conteudo a:hover {
@@ -109,22 +119,23 @@ a {
 	position: relative;
 }
 
-.experienciaCard a:hover {
-	padding: 0px;
-	border: none;
-	background-color: #101c2600;
-	color: #ebebeb;
+.experienciaCard a {
 	font-weight: bold;
 }
-
+.experienciaCard a:hover {
+	border: none;
+	background-color: #101c2600;
+	color: #cacaca;
+}
 .experienciaCard a:after {
 	content: "";
 	position: absolute;
-	background-color: #ebebeb;
+	background-color: #cacaca;
 	height: 3px;
 	width: 0;
-	left: 0;
-	bottom: -10px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
 	transition: 0.3s;
 }
 .experienciaCard a:hover:after {
@@ -134,6 +145,11 @@ a {
 p {
 	padding-bottom: 15px;
 	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
+}
+
+.quemSouEuP {
+	padding: 10px 30px 0px 30px;
+	text-align: center;
 }
 
 .conteudo a {
@@ -146,10 +162,9 @@ p {
 
 .fotoPerfil {
 	display: block;
-	margin: auto;
-	margin: 15px 0px 15px 0px;
-	width: 330x;
-	height: 330px;
+	margin: 25px 0px 30px 0px;
+	width: 348px;
+	height: 348px;
 	border-radius: 20px;
 	box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
 }
@@ -180,7 +195,7 @@ p {
 
 .experienciaCard {
 	border: 2px solid white;
-	border-radius: 0px 0px 20px 20px;
+	border-radius: 0px 0px 0px 0px;
 	margin: auto;
 	padding: 10px;
 }
