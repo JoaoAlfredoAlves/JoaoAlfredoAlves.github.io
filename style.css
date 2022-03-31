@@ -245,9 +245,43 @@ footer {
 		display: block;
 		margin: auto;
 		margin: 15px 0px 15px 0px;
-		width: 200x;
+		width: 200px;
 		height: 200px;
 		border-radius: 20px;
 		box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
 	}
+	.redes a {
+		width: 30px;
+		margin-left: 10px;
+	}
+}
+
+/* LINK SINFONIA E LOUVOR */
+
+.aUnderline {
+	font-weight: bold;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.aUnderline:hover {
+	border: none !important;
+	background-color: #101c2600 !important;
+	color: #cacaca !important;
+
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.aUnderline:after {
+	content: "" !important;
+	position: absolute !important;
+	background-color: #cacaca !important;
+	height: 3px !important;
+	width: 0 !important;
+	left: 0px !important;
+	right: 0px !important;
+	bottom: 0px !important;
+	transition: 0.3s !important;
+}
+.aUnderline:hover:after {
+	width: 100% !important;
 }
