@@ -39,7 +39,7 @@ body {
 .nome {
 	background-color: #212b40;
 	display: flex;
-	border-radius: 20px;
+	border-radius: 15px;
 	align-content: center;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -94,9 +94,16 @@ a {
 	text-decoration: none;
 	display: flex;
 	margin: 0 auto;
-	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
 	transition: all 0.3s ease-in-out;
 	padding: 10px;
+}
+
+.conteudo a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
 }
 
 .redes a {
@@ -144,7 +151,6 @@ a {
 
 p {
 	padding-bottom: 15px;
-	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
 }
 
 .quemSouEuP {
@@ -152,20 +158,12 @@ p {
 	text-align: center;
 }
 
-.conteudo a {
-	display: inline-block;
-	text-decoration: none;
-	color: white;
-	margin: 5px;
-	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
-}
-
 .fotoPerfil {
 	display: block;
 	margin: 25px 0px 30px 0px;
-	width: 348px;
-	height: 348px;
-	border-radius: 20px;
+	width: 330px;
+	height: 330px;
+	border-radius: 15px;
 	box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
 }
 
@@ -179,7 +177,7 @@ p {
 	margin-top: 30px;
 	padding-top: 0px;
 	padding-bottom: 20px;
-	border-radius: 20px;
+	border-radius: 15px;
 	box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
 }
 
@@ -199,6 +197,9 @@ p {
 	margin: auto;
 	padding: 10px;
 }
+.experienciaCard:last-child {
+	border-radius: 0px 0px 10px 10px;
+}
 
 .experienciaCard p {
 	padding-bottom: 0px;
@@ -208,7 +209,7 @@ footer {
 	background-color: #212b40;
 	margin-top: 20px;
 	padding: 20px 40px 0px 40px;
-	border-radius: 20px;
+	border-radius: 15px;
 	text-align: center;
 	box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
 }
