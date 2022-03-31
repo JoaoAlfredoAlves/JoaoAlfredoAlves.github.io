@@ -1,240 +1,237 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 
 * {
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 0;
-    padding: 0;
+	font-family: "Source Sans Pro", sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 /* estilização do scrollbar*/
-::-webkit-scrollbar{
-    width: 8px;
+::-webkit-scrollbar {
+	width: 8px;
 }
 
-::-webkit-scrollbar-thumb{
-    background: #EBEBEB;
-    border-radius: 6px;
+::-webkit-scrollbar-thumb {
+	background: #ebebeb;
+	border-radius: 6px;
 }
 
-::-webkit-scrollbar-thumb:hover{
-    background: #212B40;
+::-webkit-scrollbar-thumb:hover {
+	background: #212b40;
 }
 
 body {
-    color: #EBEBEB;
-    background-color: #101C26;
+	color: #ebebeb;
+	background-color: #101c26;
 }
 
 #container {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #101C26;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    
+	width: 80%;
+	margin: 0 auto;
+	background-color: #101c26;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .nome {
-    background-color: #212B40;
-    display: flex;
-    border-radius: 20px;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
+	background-color: #212b40;
+	display: flex;
+	border-radius: 20px;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
 
-    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
+	box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
 }
 
 .redes {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    list-style: none;
-    display: inline-block;
-    padding-right: 1vw;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	list-style: none;
+	display: inline-block;
+	padding-right: 1vw;
 }
 
 .nomeJoao {
-    padding-top: 20px;
-    padding-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 0px;
 }
 
 .informacoes {
-    margin-left: 40px;
-    margin-right: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 h1 {
-    text-align: center;
-    text-shadow: -2px 5px 7px rgba(0, 0, 0, 0.507);
+	text-align: center;
+	text-shadow: -2px 5px 7px rgba(0, 0, 0, 0.507);
 }
 
 h2 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
 }
 
 #contato {
-    display: block;
-    background-color: #101C26;
-    margin: 15px 0px 15px 0px;
-    padding: 5px;
-    border-radius: 20px;
-    text-align: center;
+	display: block;
+	background-color: #101c26;
+	margin: 15px 0px 15px 0px;
+	padding: 5px;
+	border-radius: 20px;
+	text-align: center;
 }
 
 a {
-    position: relative;
-    text-decoration: none;
-    display: flex;
-    margin: 0 auto;
-    text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
-    transition: all 0.3s ease-in-out;
+	position: relative;
+	text-decoration: none;
+	display: flex;
+	margin: 0 auto;
+	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
+	transition: all 0.3s ease-in-out;
 }
 
 .redes a:hover {
-    border-radius: 100%;
-    background-color: #101C26;
-    transition: all 0.3s ease-in-out;
-    position: relative;
+	border-radius: 100%;
+	background-color: #101c26;
+	transition: all 0.3s ease-in-out;
+	position: relative;
 }
 
 .conteudo a:hover {
-    padding: 10px;
-    border-radius: 25px;
-    background-color: #101C26;
-    transition: all 0.3s ease-in-out;
-    position: relative;
+	padding: 10px;
+	border-radius: 25px;
+	background-color: #101c26;
+	transition: all 0.3s ease-in-out;
+	position: relative;
 }
 
 .experienciaCard a:hover {
-    padding: 0px;
-    border: none;
-    background-color: #101c2600;
-    color: #EBEBEB;
-    font-weight: bold;
+	padding: 0px;
+	border: none;
+	background-color: #101c2600;
+	color: #ebebeb;
+	font-weight: bold;
 }
 
 .experienciaCard a:after {
-    content: "";
-    position: absolute;
-    background-color: #EBEBEB;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-    transition: 0.3s;
+	content: "";
+	position: absolute;
+	background-color: #ebebeb;
+	height: 3px;
+	width: 0;
+	left: 0;
+	bottom: -10px;
+	transition: 0.3s;
 }
 .experienciaCard a:hover:after {
-    width: 100%;
+	width: 100%;
 }
 
 p {
-    padding-bottom: 15px;
-    text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
+	padding-bottom: 15px;
+	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
 }
 
 .conteudo a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    margin: 5px;
-    text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
 }
 
 .fotoPerfil {
-    display: block;
-    margin: auto;
-    margin: 15px 0px 15px 0px;
-    width: 330x;
-    height: 330px;
-    border-radius: 20px;
-    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
+	display: block;
+	margin: auto;
+	margin: 15px 0px 15px 0px;
+	width: 330x;
+	height: 330px;
+	border-radius: 20px;
+	box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
 }
 
 .conteudo {
-    margin: 2vw 16vw;
-    text-align: center;
+	margin: 2vw 16vw;
+	text-align: center;
 }
 
 .corpo {
-    background-color: #212B40;
-    margin-top: 30px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
+	background-color: #212b40;
+	margin-top: 30px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
 }
 
 .devWeb {
-    background-color: #101C26;
-    margin: 0 auto;
-    padding: 5px;
-    border-radius: 20px 20px 0px 0px;
-    border-style: groove;
-    border: 2px solid #101C26;
-    text-align: center;
-
+	background-color: #101c26;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius: 20px 20px 0px 0px;
+	border-style: groove;
+	border: 2px solid #101c26;
+	text-align: center;
 }
 
 .experienciaCard {
-    border: 2px solid white;
-    border-radius: 0px 0px 20px 20px;
-    margin: auto;
-    padding: 10px;
-
+	border: 2px solid white;
+	border-radius: 0px 0px 20px 20px;
+	margin: auto;
+	padding: 10px;
 }
 
 .experienciaCard p {
-    padding-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 footer {
-    background-color: #212B40;
-    margin-top: 20px;
-    padding: 20px 40px 0px 40px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
+	background-color: #212b40;
+	margin-top: 20px;
+	padding: 20px 40px 0px 40px;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
 }
 #redeSocial {
-    text-align: center;
+	text-align: center;
 }
 
 @media screen and (max-width: 1155px) {
-    #redeSocial {
-        text-align: center;
-    }
+	#redeSocial {
+		text-align: center;
+	}
 
-    .nome {
-        background-color: #212B40;
-        display: flex;
-        text-align: center;
-        border-radius: 20px;
-        align-content: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    
-        box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
-    }
+	.nome {
+		background-color: #212b40;
+		display: flex;
+		text-align: center;
+		border-radius: 20px;
+		align-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
 
-    .conteudo {
-        margin: 2vw 8vw;
-        text-align: center;
-    }
+		box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
+	}
+
+	.conteudo {
+		margin: 2vw 8vw;
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 678px) {
-    .fotoPerfil {
-        display: block;
-        margin: auto;
-        margin: 15px 0px 15px 0px;
-        width: 200x;
-        height: 200px;
-        border-radius: 20px;
-        box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
-    }
+	.fotoPerfil {
+		display: block;
+		margin: auto;
+		margin: 15px 0px 15px 0px;
+		width: 200x;
+		height: 200px;
+		border-radius: 20px;
+		box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
+	}
 }
