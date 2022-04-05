@@ -285,3 +285,26 @@ footer {
 .aUnderline:hover:after {
 	width: 100% !important;
 }
+
+a.cvLink {
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 5px 15px 5px 15px;
+	background-color: #212b40;
+	border: 2px solid #ebebeb;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+a.cvLink {
+	font-weight: bold;
+	color: #ebebeb;
+	text-decoration: none;
+}
+
+a.cvLink:hover {
+	background-color: #101c26;
+	transition: all 0.3s;
+	border-radius: 10px;
+	padding: 5px 15px 5px 15px;
+}
